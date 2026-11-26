@@ -95,7 +95,6 @@ export default function LoginPage({ eventConfig, teamsCount, onTeamLogin, onAdmi
                 id="username-id"
                 type="text"
                 className="input-field font-mono"
-                placeholder="e.g. TEAM01"
                 value={usernameId}
                 onChange={(e) => setUsernameId(e.target.value.toUpperCase())}
                 style={{ textTransform: 'uppercase' }}
@@ -111,7 +110,6 @@ export default function LoginPage({ eventConfig, teamsCount, onTeamLogin, onAdmi
                 id="team-password"
                 type="password"
                 className="input-field font-mono"
-                placeholder="e.g. PASS01"
                 value={password}
                 onChange={(e) => setPassword(e.target.value.toUpperCase())}
                 style={{ letterSpacing: '0.14em', textTransform: 'uppercase' }}
@@ -143,7 +141,6 @@ export default function LoginPage({ eventConfig, teamsCount, onTeamLogin, onAdmi
                 id="admin-key"
                 type="password"
                 className="input-field font-mono"
-                placeholder="Enter admin key (default: ADMIN2026)"
                 value={adminKey}
                 onChange={(e) => setAdminKey(e.target.value)}
               />
